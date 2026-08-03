@@ -15,6 +15,7 @@ const { BASE_URL, BASE_PATH } = require('./config');
 const { validateAll } = require('./validate-json');
 
 const ROOT = path.join(__dirname, '..');
+const SRC_DIR = path.join(ROOT, 'src');
 const DATA_DIR = path.join(ROOT, 'data');
 const TEMPLATES_DIR = path.join(ROOT, 'src', 'templates');
 const ASSETS_DIR = path.join(ROOT, 'src', 'assets');
@@ -1103,6 +1104,9 @@ function copyAssets() {
     });
   };
   copyDir(ASSETS_DIR, path.join(DIST_DIR, 'assets'));
+  fs.readdirSync(SRC_DIR, { withFileTypes: true }).forEach((entry) => {
+    if (!entry.isDirectory()) fs.copyFileSync(path.join(SRC_DIR, entry.name), path.join(DIST_DIR, entry.name));
+  });
 }
 
 /* ------------------------------------------------------------------ */
