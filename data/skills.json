@@ -1,0 +1,229 @@
+[
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Programming Languages",
+    "icon": "python",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "File Handling",
+      "Flask",
+      "Automation Scripting"
+    ],
+    "note": "My primary language \u2014 used for most projects, scripts, and backend work.",
+    "status": "learned",
+    "published": false,
+    "featured": true,
+    "featuredOrder": 1
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "Programming Languages",
+    "icon": "java",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "OOP",
+      "Collections Framework",
+      "Exception Handling"
+    ],
+    "status": "learning",
+    "published": false
+  },
+  {
+    "id": "c-programming",
+    "name": "C Programming",
+    "category": "Programming Languages",
+    "icon": "c",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Pointers",
+      "Memory Management",
+      "Data Structures"
+    ],
+    "status": "learned",
+    "published": false
+  },
+  {
+    "id": "flask",
+    "name": "Flask",
+    "category": "Web Technologies",
+    "icon": "flask",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Routing",
+      "Templating",
+      "REST basics",
+      "Authentication"
+    ],
+    "note": "My go-to Python web framework for building full-stack web apps.",
+    "status": "learned",
+    "published": false,
+    "featured": true,
+    "featuredOrder": 2
+  },
+  {
+    "id": "html-css",
+    "name": "HTML & CSS",
+    "category": "Web Technologies",
+    "icon": "html",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Semantic HTML",
+      "Flexbox",
+      "CSS Grid",
+      "Responsive Design"
+    ],
+    "status": "learned",
+    "published": false
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Web Technologies",
+    "icon": "javascript",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "DOM Manipulation",
+      "ES6+",
+      "Fetch API"
+    ],
+    "status": "learning",
+    "published": false
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "Databases",
+    "icon": "sql",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "CRUD Operations",
+      "Joins",
+      "Aggregation",
+      "Indexing"
+    ],
+    "status": "learned",
+    "published": false
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "category": "Databases",
+    "icon": "sqlite",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Schema Design",
+      "Transactions",
+      "Python Integration"
+    ],
+    "status": "learned",
+    "published": false
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Databases",
+    "icon": "postgresql",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Relational Design",
+      "SQL",
+      "Basic Administration"
+    ],
+    "status": "learning",
+    "published": false
+  },
+  {
+    "id": "dsa",
+    "name": "Data Structures & Algorithms",
+    "category": "CS Fundamentals",
+    "icon": "dsa",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Arrays & Linked Lists",
+      "Stacks & Queues",
+      "Trees",
+      "Sorting & Searching"
+    ],
+    "status": "learned",
+    "published": false,
+    "featured": true,
+    "featuredOrder": 3
+  },
+  {
+    "id": "computer-networks",
+    "name": "Computer Networks",
+    "category": "CS Fundamentals",
+    "icon": "network",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "OSI & TCP/IP",
+      "HTTP",
+      "DNS",
+      "Sockets"
+    ],
+    "status": "learning",
+    "published": false
+  },
+  {
+    "id": "oop",
+    "name": "Object-Oriented Programming",
+    "category": "CS Fundamentals",
+    "icon": "oop",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Classes & Objects",
+      "Inheritance",
+      "Polymorphism",
+      "Encapsulation"
+    ],
+    "status": "learned",
+    "published": false
+  },
+  {
+    "id": "git",
+    "name": "Git & GitHub",
+    "category": "Tools & Platforms",
+    "icon": "git",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Version Control",
+      "Branching",
+      "Pull Requests",
+      "GitHub Pages"
+    ],
+    "status": "learned",
+    "published": false,
+    "featured": true,
+    "featuredOrder": 4
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "category": "Tools & Platforms",
+    "icon": "linux",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Command Line",
+      "Shell Scripting",
+      "File Permissions"
+    ],
+    "status": "learning",
+    "published": false
+  },
+  {
+    "id": "problem-solving",
+    "name": "Problem Solving",
+    "category": "Additional Skills",
+    "icon": "problemsolving",
+    "image": "/assets/images/skills/placeholder.avif",
+    "topicsLearned": [
+      "Logical Reasoning",
+      "Debugging",
+      "Algorithm Design"
+    ],
+    "status": "learned",
+    "published": false
+  }
+]

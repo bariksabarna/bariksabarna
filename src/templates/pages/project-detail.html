@@ -1,0 +1,70 @@
+<section class="detail-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      {{breadcrumb}}
+    </nav>
+    <div class="reveal">
+      {{hero_image}}
+      <p class="page-header__eyebrow" style="margin-bottom:var(--space-3)">{{category_eyebrow}}</p>
+      <h1 class="detail-hero__title">{{project_title}}</h1>
+      <p class="detail-hero__summary">{{summary}}</p>
+      <div class="tags" style="margin-bottom:var(--space-8)">
+        {{tech_stack}}
+      </div>
+      <div class="btn-group" style="justify-content:flex-start">
+        {{github_button}}
+        <a class="btn btn--secondary" href="{{video_anchor}}">Watch Walkthrough</a>
+      </div>
+      <p style="margin-top:var(--space-4);font-size:var(--text-sm);color:var(--color-text-muted)">{{demo_status}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="walkthrough">
+  <div class="container">
+    <div class="section-head section-head__center reveal">
+      <h2 class="section-head__title">Project Walkthrough</h2>
+      <p class="section-head__lede">Watch the walkthrough for {{project_title}}.</p>
+    </div>
+    {{video_facade}}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="detail-layout">
+      <div class="prose">
+        <h2 class="reveal">About This Project</h2>
+        {{description}}
+
+        {{problem_block}}
+        {{why_block}}
+      </div>
+      <aside class="detail-layout__sidebar">
+        <div class="sidebar-card reveal">
+          <h3>Tech Stack</h3>
+          <div class="tags">
+            {{tech_stack}}
+          </div>
+        </div>
+        {{skills_block}}
+        <div class="sidebar-card sidebar-actions reveal">
+          {{github_button}}
+          {{demo_button_or_status}}
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="section-head__title">What I Learned</h2>
+    </div>
+    <div class="learn-card reveal">
+      <p class="learn-card__num">Key Takeaways</p>
+      <p>{{what_learned}}</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+{
+  "siteName": "Sabarna Barik",
+  "baseUrl": "https://bariksabarna.github.io/bariksabarna",
+  "hero": {
+    "name": "Sabarna Barik",
+    "nickname": "Rico",
+    "kicker": "Computer Science Student",
+    "tagline": "Building real things to learn, and learning to build better.",
+    "cta": [
+      { "label": "Explore My Work", "target": "/projects" },
+      { "label": "Know Me", "target": "/about" }
+    ]
+  },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "About", "path": "/about" },
+    { "label": "Education", "path": "/education" },
+    { "label": "Skills", "path": "/skills" },
+    { "label": "Projects", "path": "/projects" },
+    { "label": "Certificates", "path": "/certificates" },
+    { "label": "Achievements", "path": "/achievements" },
+    { "label": "Socials", "path": "/socials" }
+  ]
+}

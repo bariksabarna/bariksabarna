@@ -1,0 +1,287 @@
+[
+  {
+    "id": "mylibrary",
+    "title": "MyLibrary",
+    "summary": "A library management system built with Flask and PostgreSQL — my Diploma minor project.",
+    "image": "/assets/images/projects/mylibrary.avif",
+    "description": [
+      "MyLibrary is my minor academic project — a full library management system that digitises the day-to-day operations of a small library.",
+      "It handles book cataloguing, member records, and borrow/return tracking, with a clean web interface on top of a relational database."
+    ],
+    "problem": "Small libraries still rely on registers and spreadsheets, making it hard to track which books are out, overdue, or reserved.",
+    "whyBuilt": "Built as my Diploma minor project to apply backend fundamentals end to end — from schema design to a working web app.",
+    "whatLearned": "Relational schema design, Flask routing and templating, session-based authentication, and deployment basics.",
+    "techStack": [
+      "Python",
+      "Flask",
+      "PostgreSQL",
+      "SQLite"
+    ],
+    "tags": [
+      "python",
+      "flask",
+      "postgresql",
+      "backend"
+    ],
+    "skillIds": [
+      "python",
+      "flask",
+      "sql",
+      "sqlite",
+      "postgresql"
+    ],
+    "category": "Academic",
+    "githubUrl": "https://github.com/bariksabarna/MyLibrary",
+    "youtubeUrl": null,
+    "liveDemoUrl": null,
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "venue-navigator",
+    "title": "venue-navigator (Setu)",
+    "summary": "AI stadium concierge for FIFA World Cup 2026 — deterministic Dijkstra routing with Gemini explanations.",
+    "image": "/assets/images/projects/venue-navigator.avif",
+    "description": [
+      "venue-navigator is an AI stadium concierge built for the FIFA World Cup 2026 experience. Fans can plan how to reach their seat, find amenities, and get plain-language explanations of the best route.",
+      "Routing is deliberately deterministic — computed with Dijkstra's algorithm, never LLM-routed — while Gemini is used only to turn the computed path into a friendly, conversational explanation.",
+      "The app is a React 18 / TypeScript PWA with 153 tests, built to stay reliable and offline-friendly on match day."
+    ],
+    "problem": "Large stadiums are confusing: fans waste time finding gates, seats, and amenities, and AI navigation tools are often unreliable because the LLM does the routing.",
+    "whyBuilt": "Built to prove that you can get the best of both worlds — trustworthy algorithmic routing plus a helpful AI interface — in a high-stakes, high-scale setting.",
+    "whatLearned": "Graph-based shortest-path routing, PWA patterns, React 18 with TypeScript, and a test discipline that keeps 153 tests meaningful.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "PWA",
+      "Gemini"
+    ],
+    "tags": [
+      "typescript",
+      "react",
+      "pwa",
+      "ai"
+    ],
+    "skillIds": [
+      "javascript",
+      "dsa",
+      "problem-solving"
+    ],
+    "category": "Hackathon",
+    "githubUrl": "https://github.com/bariksabarna/venue-navigator",
+    "youtubeUrl": null,
+    "liveDemoUrl": null,
+    "published": true,
+    "featured": true,
+    "featuredOrder": 1
+  },
+  {
+    "id": "ecotrace",
+    "title": "ecotrace (EcoTrace)",
+    "summary": "Carbon-footprint awareness platform with India-specific emission factors.",
+    "image": "/assets/images/projects/ecotrace.avif",
+    "description": [
+      "EcoTrace is a carbon-footprint awareness platform that estimates the emissions behind everyday choices using India-specific factors rather than global averages.",
+      "The front end is a React 19 app talking to an Express + Gemini backend, deployed on Cloud Run, with the Gemini layer used to explain results in plain language."
+    ],
+    "problem": "Most carbon calculators use generic global factors, so estimates for Indian households are inaccurate and unrelatable.",
+    "whyBuilt": "To make sustainability data relevant to Indian users and to practice a full React + Express + cloud deployment stack.",
+    "whatLearned": "React 19 and Express app structure, working with LLM APIs for explanations, and deploying to Cloud Run.",
+    "techStack": [
+      "React",
+      "Express",
+      "Gemini",
+      "Cloud Run"
+    ],
+    "tags": [
+      "javascript",
+      "react",
+      "express",
+      "sustainability"
+    ],
+    "skillIds": [
+      "javascript",
+      "problem-solving"
+    ],
+    "category": "Personal",
+    "githubUrl": "https://github.com/bariksabarna/ecotrace",
+    "youtubeUrl": null,
+    "liveDemoUrl": null,
+    "published": true,
+    "featured": true,
+    "featuredOrder": 2
+  },
+  {
+    "id": "votermitra-ai",
+    "title": "Votermitra-Ai (VoterMitra AI)",
+    "summary": "Bilingual civic-education assistant for Indian elections, built on Google Cloud.",
+    "image": "/assets/images/projects/votermitra-ai.avif",
+    "description": [
+      "VoterMitra AI is a bilingual civic-education assistant that helps Indian voters understand elections — how to register, where to vote, and what's on the ballot.",
+      "It is a Next.js app that combines Gemini for natural-language answers with Firestore for content, Google Maps for locating polling stations, and a Calendar integration for election-day reminders — all running on GCP."
+    ],
+    "problem": "Election information is scattered, and non-English speakers face an even higher barrier to understanding the voting process.",
+    "whyBuilt": "To put civic information in the hands of every Indian voter in their own language, and to ship a real multi-service Google Cloud application.",
+    "whatLearned": "Next.js full-stack structure, integrating Gemini, Firestore, Maps and Calendar, and deploying multi-service apps on GCP.",
+    "techStack": [
+      "Next.js",
+      "TypeScript",
+      "Gemini",
+      "Firestore",
+      "Google Maps",
+      "GCP"
+    ],
+    "tags": [
+      "typescript",
+      "nextjs",
+      "gcp",
+      "civic-tech"
+    ],
+    "skillIds": [
+      "javascript",
+      "problem-solving"
+    ],
+    "category": "Personal",
+    "githubUrl": "https://github.com/bariksabarna/Votermitra-Ai",
+    "youtubeUrl": null,
+    "liveDemoUrl": null,
+    "published": true,
+    "featured": true,
+    "featuredOrder": 4
+  },
+  {
+    "id": "smart-stadium-flow-system-ssf",
+    "title": "Smart-Stadium-Flow-System-SSF (StadiumPulse Pro)",
+    "summary": "Stadium crowd-intelligence and safety dashboard with predictive velocity modelling.",
+    "image": "/assets/images/projects/smart-stadium-flow-system.avif",
+    "description": [
+      "StadiumPulse Pro is a crowd-intelligence dashboard that helps venue operators understand and predict how crowds move inside a stadium.",
+      "It is built with vanilla JavaScript on the front end and an Express backend, with predictive velocity modelling to anticipate congestion, and GCP observability throughout."
+    ],
+    "problem": "Crowd surges are hard to predict in real time, and operators lack a single view of how movement patterns evolve during an event.",
+    "whyBuilt": "To explore predictive modelling applied to real-world safety, with a focus on clear visualisation and cloud observability.",
+    "whatLearned": "Predictive modelling of movement data, event-driven dashboards with vanilla JS, and GCP observability tooling.",
+    "techStack": [
+      "JavaScript",
+      "Express",
+      "GCP"
+    ],
+    "tags": [
+      "javascript",
+      "express",
+      "gcp",
+      "data-viz"
+    ],
+    "skillIds": [
+      "javascript",
+      "dsa",
+      "computer-networks"
+    ],
+    "category": "Personal",
+    "githubUrl": "https://github.com/bariksabarna/Smart-Stadium-Flow-System-SSF",
+    "youtubeUrl": null,
+    "liveDemoUrl": null,
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "cyberguard-nids",
+    "title": "CyberGuard-NIDS",
+    "summary": "Machine-learning intrusion-detection dashboard (Random Forest + Streamlit).",
+    "image": "/assets/images/projects/cyberguard-nids.avif",
+    "description": [
+      "CyberGuard-NIDS is a network intrusion detection dashboard built with a Random Forest model and a Streamlit interface.",
+      "It was built during the EDUNET Cybersecurity with Generative AI internship, taking the intrusion-detection concepts from the curriculum and turning them into a working tool."
+    ],
+    "problem": "Traditional signature-based intrusion detection misses novel attacks; ML-based detection needs a usable way to inspect and interpret results.",
+    "whyBuilt": "Built as the hands-on deliverable of the EDUNET internship to apply ML to real security problems.",
+    "whatLearned": "Random Forest classification, feature handling for network traffic, and building an interactive dashboard with Streamlit.",
+    "techStack": [
+      "Python",
+      "Streamlit",
+      "scikit-learn"
+    ],
+    "tags": [
+      "python",
+      "machine-learning",
+      "security",
+      "streamlit"
+    ],
+    "skillIds": [
+      "python",
+      "dsa",
+      "computer-networks",
+      "problem-solving"
+    ],
+    "category": "Internship",
+    "githubUrl": "https://github.com/bariksabarna/CyberGuard-NIDS",
+    "youtubeUrl": null,
+    "liveDemoUrl": null,
+    "published": true,
+    "featured": true,
+    "featuredOrder": 3
+  },
+  {
+    "id": "typetrace",
+    "title": "TypeTrace",
+    "summary": "Educational keystroke-logging simulator (Tkinter) that demonstrates cybersecurity risks.",
+    "image": "/assets/images/projects/typetrace.avif",
+    "description": [
+      "TypeTrace is an educational simulator written with Python's Tkinter that shows how keystroke loggers work and why they are dangerous.",
+      "It is a safe, sandboxed demonstration built to teach others the mechanics behind keylogging attacks — for learning, not for real-world use."
+    ],
+    "problem": "Most people don't understand how keystroke loggers operate, which makes them easier to fall victim to.",
+    "whyBuilt": "To turn the social-engineering and toolkit concepts from the EDUNET internship into a hands-on teaching tool.",
+    "whatLearned": "Tkinter UI development, event handling, and communicating security concepts through demos.",
+    "techStack": [
+      "Python",
+      "Tkinter"
+    ],
+    "tags": [
+      "python",
+      "security",
+      "education"
+    ],
+    "skillIds": [
+      "python",
+      "computer-networks",
+      "problem-solving"
+    ],
+    "category": "Personal",
+    "githubUrl": "https://github.com/bariksabarna/TypeTrace",
+    "youtubeUrl": null,
+    "liveDemoUrl": null,
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "pytasks",
+    "title": "PyTasks",
+    "summary": "CLI task manager with persistent JSON storage.",
+    "image": "/assets/images/projects/pytasks.avif",
+    "description": [
+      "PyTasks is a command-line task manager that keeps your to-dos in persistent JSON storage, so nothing is lost between sessions.",
+      "It is a focused exercise in clean CLI design, file I/O, and data persistence in plain Python."
+    ],
+    "problem": "Simple to-do lists are scattered across apps or notes, and terminal users want something lightweight and scriptable.",
+    "whyBuilt": "A self-directed project to practise Python CLI structure and durable storage without a database dependency.",
+    "whatLearned": "CLI argument handling, JSON persistence, and structuring a small tool with clear user flows.",
+    "techStack": [
+      "Python"
+    ],
+    "tags": [
+      "python",
+      "cli",
+      "json"
+    ],
+    "skillIds": [
+      "python"
+    ],
+    "category": "Personal",
+    "githubUrl": "https://github.com/bariksabarna/PyTasks",
+    "youtubeUrl": null,
+    "liveDemoUrl": null,
+    "published": true,
+    "featured": false
+  }
+]

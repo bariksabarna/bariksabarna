@@ -1,0 +1,22 @@
+<section class="page-header">
+  <div class="page-header__mesh" aria-hidden="true"></div>
+  <div class="container">
+    <p class="page-header__eyebrow reveal">Portfolio</p>
+    <h1 class="reveal">{{heading}}</h1>
+    <p class="page-header__lede reveal">{{lede}}</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="filterbar filterbar--sticky" role="group" aria-label="Filter projects">
+      <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">All Projects</button>
+      {{filter_chips}}
+    </div>
+    <p class="visually-hidden" aria-live="polite" data-filter-live></p>
+    <div class="grid grid--3" data-filter-grid>
+      {{project_cards}}
+    </div>
+    {{empty_filter}}
+  </div>
+</section>

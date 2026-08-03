@@ -1,0 +1,20 @@
+{
+  "siteName": "Sabarna Barik",
+  "baseUrl": "https://bariksabarna.github.io/bariksabarna",
+  "defaultTitle": "Sabarna Barik — Computer Science Student",
+  "defaultDescription": "Sabarna Barik is a Computer Science student and developer. Explore his projects, skills, education, and achievements.",
+  "defaultOgImage": "/assets/images/og/default.svg",
+  "person": {
+    "name": "Sabarna Barik",
+    "alternateName": "Rico",
+    "jobTitle": "Computer Science Student",
+    "nationality": "India",
+    "alumniOf": ["Contai Polytechnic", "Contai Model Institution"],
+    "sameAs": [
+      "https://github.com/bariksabarna",
+      "https://www.linkedin.com/in/bariksabarna/",
+      "https://leetcode.com/u/bariksabarna/",
+      "https://codeforces.com/profile/bariksabarna"
+    ]
+  }
+}

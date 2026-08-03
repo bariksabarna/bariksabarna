@@ -1,0 +1,26 @@
+[
+  {
+    "id": "diploma-contai-polytechnic",
+    "level": "Diploma in Computer Science & Technology",
+    "institution": "Contai Polytechnic",
+    "board": "WBSCTE",
+    "startYear": 2024,
+    "endYear": 2027,
+    "status": "current",
+    "result": "Currently pursuing",
+    "description": "Three-year diploma program covering programming, database systems, computer networks, and software engineering fundamentals.",
+    "published": true
+  },
+  {
+    "id": "secondary-contai-model-institution",
+    "level": "Madhamik (10th)",
+    "institution": "Contai Model Institution",
+    "board": "WBBSE",
+    "startYear": 2023,
+    "endYear": 2024,
+    "status": "completed",
+    "result": "557/700 (79.5%)",
+    "description": "Completed secondary education with a focus on mathematics and science.",
+    "published": true
+  }
+]

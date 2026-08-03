@@ -1,0 +1,22 @@
+# Ignore generated build output
+dist/
+node_modules/
+
+# Lockfiles and logs (zero dependencies — npm/package-lock never needed)
+package-lock.json
+yarn.lock
+*.log
+
+# Local progress tracker — kept out of the repo (the repo holds only the site)
+checklist.md
+
+# Data-collection form — working document, not site content
+input.md
+
+# Personal source material — already processed into src/assets; never push
+original data/
+project img/
+
+# OS cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <meta name="description" content="{{meta_description}}">
+  <link rel="canonical" href="{{canonical_url}}">
+  <meta name="theme-color" content="#27AE79">
+  <link rel="icon" href="{{basePath}}/assets/images/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:site_name" content="{{og_site_name}}">
+  <meta property="og:title" content="{{og_title}}">
+  <meta property="og:description" content="{{og_description}}">
+  <meta property="og:type" content="{{og_type}}">
+  <meta property="og:url" content="{{og_url}}">
+  <meta property="og:image" content="{{og_image}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{og_title}}">
+  <meta name="twitter:description" content="{{og_description}}">
+  <meta name="twitter:image" content="{{og_image}}">
+
+  <script type="application/ld+json">{{json_ld}}</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght@20..48,300..700&display=swap" rel="stylesheet">
+  <style>
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+
+  <link rel="stylesheet" href="{{basePath}}/assets/css/tokens.css">
+  <link rel="stylesheet" href="{{basePath}}/assets/css/main.css">
+  <link rel="stylesheet" href="{{basePath}}/assets/css/components.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{navbar}}
+  <main id="main">
+    {{content}}
+  </main>
+  {{footer}}
+  <script src="{{basePath}}/assets/js/main.js" defer></script>
+  <script src="{{basePath}}/assets/js/filters.js" defer></script>
+  <script src="{{basePath}}/assets/js/motion.js" defer></script>
+</body>
+</html>

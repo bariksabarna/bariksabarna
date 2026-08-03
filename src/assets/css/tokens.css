@@ -1,0 +1,77 @@
+/* ============================================================
+   Design Tokens — "Bright Start" Mint Theme
+   Source: Phase-8 Design System / Phase-10 Design Direction
+   ============================================================ */
+
+:root {
+  /* Color */
+  --color-accent: #27AE79;
+  --color-accent-soft: #E6F7EF;
+  --color-ink: #12172B;
+  --color-text: #3C4257;
+  --color-text-muted: #7A8299;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F7F8FA;
+  --color-surface: #FFFFFF;
+  --color-surface-elevated: #FFFFFF;
+  --color-border: #E7E9EF;
+
+  /* Hero mesh gradient (soft blur backdrop, never a hard box) */
+  --gradient-hero: linear-gradient(135deg, #C9D6FF 0%, #E4C9FF 50%, #FFD9EC 100%);
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Type scale (fluid anchors) */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
+  --text-4xl: 3.25rem;
+  --text-5xl: clamp(2.75rem, 6vw, 4rem);
+
+  --leading-tight: 1.15;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+
+  /* Spacing (4px base scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  --section-gap-mobile: 64px;
+  --section-gap-desktop: 120px;
+  --grid-gutter: 24px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 3px rgba(18, 23, 43, 0.06);
+  --shadow-md: 0 8px 24px rgba(18, 23, 43, 0.08);
+  --shadow-lg: 0 20px 48px rgba(18, 23, 43, 0.12);
+
+  /* Motion */
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+  --duration-slow: 600ms;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-soft: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout */
+  --container-max: 1280px;
+  --navbar-height: 72px;
+}

@@ -1,0 +1,26 @@
+<section class="page-header">
+  <div class="page-header__mesh" aria-hidden="true"></div>
+  <div class="container">
+    <p class="page-header__eyebrow reveal">{{eyebrow}}</p>
+    <h1 class="reveal">{{heading}}</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="avatar-about reveal">
+        <img src="{{basePath}}/assets/images/avatar/avatar.png" alt="Illustrated portrait of Sabarna Barik" width="360" height="360">
+      </div>
+      <div>
+        <p class="reveal"><strong style="font-family:var(--font-display);font-size:var(--text-xl);color:var(--color-ink)">{{intro}}</strong></p>
+        {{body}}
+        <blockquote class="quote reveal">{{philosophy}}</blockquote>
+        <h2 class="reveal" style="font-size:var(--text-lg)">Interests</h2>
+        <div class="interests reveal">
+          {{interests}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

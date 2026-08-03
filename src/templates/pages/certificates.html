@@ -1,0 +1,45 @@
+<section class="page-header">
+  <div class="page-header__mesh" aria-hidden="true"></div>
+  <div class="container">
+    <p class="page-header__eyebrow reveal">Verified Credentials</p>
+    <h1 class="reveal">{{heading}}</h1>
+    <p class="page-header__lede reveal">Select a certificate to view it in-page.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="filterbar filterbar--sticky" role="group" aria-label="Filter certificates">
+      <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+      {{filter_chips}}
+    </div>
+    <p class="visually-hidden" aria-live="polite" data-filter-live></p>
+    <div class="grid grid--2" data-filter-grid>
+      {{certificate_cards}}
+    </div>
+  </div>
+</section>
+
+<script type="application/json" id="cert-data">{{cert_data_json}}</script>
+
+<!-- Certificate viewer dialog -->
+<div class="cert-modal" role="dialog" aria-modal="true" aria-labelledby="cert-modal-title" data-cert-modal>
+  <div class="cert-modal__backdrop" data-cert-backdrop></div>
+  <div class="cert-modal__panel">
+    <button class="cert-modal__close" type="button" data-cert-close aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <div class="cert-modal__image">
+      <img id="cert-modal-image" src="" alt="" width="640" height="452">
+    </div>
+    <div class="cert-modal__meta">
+      <h3 id="cert-modal-title"></h3>
+      <p class="cert-modal__issuer" id="cert-modal-issuer"></p>
+    </div>
+    <div class="cert-modal__actions">
+      <a class="btn btn--primary" id="cert-modal-verify" href="#" target="_blank" rel="noopener noreferrer">Verify Credential</a>
+    </div>
+  </div>
+</div>

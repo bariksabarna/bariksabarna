@@ -1,0 +1,49 @@
+<section class="detail-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      {{breadcrumb}}
+    </nav>
+    <div class="reveal">
+      <p class="page-header__eyebrow" style="margin-bottom:var(--space-3)">{{eyebrow}}</p>
+      <h1 class="detail-hero__title">{{skill_name}}</h1>
+      <p class="detail-hero__summary">{{note}}</p>
+      <div class="detail-hero__meta">
+        <div class="detail-hero__meta-item">
+          <strong>{{topic_count}}</strong>
+          Topics covered
+        </div>
+        <div class="detail-hero__meta-item">
+          <strong>{{used_count}}</strong>
+          Used in projects &amp; certificates
+        </div>
+      </div>
+      <div class="skill-card__icon" aria-hidden="true" style="width:56px;height:56px">
+        {{icon}}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="section-head__title">Topics Covered</h2>
+    </div>
+    <div class="topic-grid">
+      {{topics}}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="section-head__title">Used In</h2>
+      <p class="section-head__lede">Projects and certificates that put this skill to work.</p>
+    </div>
+    <div class="grid grid--2">
+      {{used_in}}
+    </div>
+    {{used_empty}}
+  </div>
+</section>

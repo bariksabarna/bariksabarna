@@ -1,0 +1,17 @@
+[
+  {
+    "id": "intern-edunet-cybersecurity",
+    "role": "Cybersecurity with Generative AI",
+    "organization": "Edunet Foundation (AICTE · VOIS for Tech, Vodafone Idea Foundation)",
+    "location": "Remote",
+    "startDate": "2025-12-09",
+    "endDate": "2026-01-06",
+    "description": "Four-week AICTE-led virtual internship on Cybersecurity with Generative AI, implemented by Edunet Foundation.",
+    "highlights": [
+      "Studied security threats and vulnerabilities, social-engineering toolkits, and Wireshark packet analysis using Generative AI.",
+      "Built CyberGuard-NIDS, a machine-learning intrusion-detection dashboard (Random Forest + Streamlit).",
+      "Completed the internship with a working security-tooling deliverable backed by the internship's coursework."
+    ],
+    "published": true
+  }
+]

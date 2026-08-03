@@ -1,0 +1,55 @@
+[
+  {
+    "id": "cs50p",
+    "title": "CS50's Introduction to Programming with Python (CS50P)",
+    "issuer": "Harvard University",
+    "platform": "CS50 / edX",
+    "year": 2025,
+    "imageUrl": "/assets/images/certificates/cs50p.avif",
+    "verificationUrl": "https://cs50.harvard.edu/certificates/5725dfac-ad55-4819-b863-514e01cc8e9d",
+    "skillIds": ["python"],
+    "projectIds": [],
+    "published": true,
+    "featured": true,
+    "featuredOrder": 1
+  },
+  {
+    "id": "introduction-to-c",
+    "title": "Introduction to C",
+    "issuer": "SoloLearn",
+    "platform": "SoloLearn",
+    "year": 2025,
+    "imageUrl": "/assets/images/certificates/introduction-to-c.avif",
+    "verificationUrl": null,
+    "skillIds": ["c-programming"],
+    "projectIds": [],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "tcs-career-edge",
+    "title": "TCS iON Career Edge — Young Professional",
+    "issuer": "Tata Consultancy Services",
+    "platform": "TCS iON",
+    "year": 2025,
+    "imageUrl": "/assets/images/certificates/tcs-career-edge.avif",
+    "verificationUrl": null,
+    "skillIds": [],
+    "projectIds": [],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": "edunet-cybersecurity",
+    "title": "Cybersecurity with Generative AI — Virtual Internship",
+    "issuer": "Edunet Foundation (AICTE · VOIS for Tech)",
+    "platform": "AICTE / Edunet",
+    "year": 2026,
+    "imageUrl": "/assets/images/certificates/edunet-cybersecurity.avif",
+    "verificationUrl": null,
+    "skillIds": ["computer-networks"],
+    "projectIds": ["cyberguard-nids", "typetrace"],
+    "published": true,
+    "featured": false
+  }
+]

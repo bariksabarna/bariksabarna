@@ -1,0 +1,59 @@
+<section class="hero">
+  <div class="hero__mesh" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero__grid">
+      {{hero_visual}}
+      <div class="hero__content reveal">
+        <span class="hero__kicker">{{hero_kicker}}</span>
+        <h1 class="hero__title">{{hero_name_first}} <span class="accent">{{hero_name_last}}</span></h1>
+        <p class="hero__tagline">{{hero_tagline}}</p>
+        <div class="btn-group">
+          {{cta_primary}}
+          {{cta_secondary}}
+        </div>
+        <div class="hero__techs">
+          {{tech_icons}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats" aria-label="Statistics">
+  <div class="container">
+    <div class="stats__grid">
+      {{stats}}
+    </div>
+  </div>
+</section>
+
+{{featured_projects_section}}
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head section-head__center reveal">
+      <h2 class="section-head__title">My Methodology</h2>
+      <p class="section-head__lede">How I approach learning and building — a process I keep coming back to.</p>
+      <div class="rule" aria-hidden="true"></div>
+    </div>
+    <div class="process-grid">
+      {{process_cards}}
+    </div>
+  </div>
+</section>
+
+{{featured_skills_section}}
+
+{{featured_certificates_section}}
+
+<script type="application/json" id="cert-data">{{cert_data_json}}</script>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2>Let's talk about building <em>tomorrow</em>.</h2>
+      <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+      <a class="btn btn--primary" href="{{socials_url}}">Get In Touch</a>
+    </div>
+  </div>
+</section>

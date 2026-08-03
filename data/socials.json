@@ -1,0 +1,11 @@
+{
+  "email": { "address": "sabarnabarik@gmail.com", "visible": true },
+  "links": [
+    { "id": "github", "label": "GitHub", "url": "https://github.com/bariksabarna", "icon": "github", "visible": true },
+    { "id": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/bariksabarna/", "icon": "linkedin", "visible": true },
+    { "id": "leetcode", "label": "LeetCode", "url": "https://leetcode.com/u/bariksabarna/", "icon": "leetcode", "visible": true },
+    { "id": "codeforces", "label": "Codeforces", "url": "https://codeforces.com/profile/bariksabarna", "icon": "codeforces", "visible": true },
+    { "id": "hackorbit", "label": "Hack Orbit", "url": "https://hackorbitglobal.vercel.app/", "icon": "hackorbit", "visible": true },
+    { "id": "youtube", "label": "YouTube", "url": "", "icon": "youtube", "visible": false }
+  ]
+}

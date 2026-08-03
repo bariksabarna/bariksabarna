@@ -1,0 +1,16 @@
+<article class="grid-item reveal">
+  <button class="card cert-card" type="button" data-cert-id="{{id}}" aria-haspopup="dialog" aria-expanded="false">
+    <div class="card__media">
+      <img src="{{image_url}}" alt="{{alt_text}}" loading="lazy" width="640" height="360">
+      <span class="card__badge">{{year}}</span>
+    </div>
+    <div class="card__body">
+      <h3 class="card__title">{{title}}</h3>
+      <p class="card__text">{{issuer}} &middot; {{platform}}</p>
+      <div class="tags card__footer">
+        <span class="tag">{{platform}}</span>
+        <span class="tag tag--muted">{{year}}</span>
+      </div>
+    </div>
+  </button>
+</article>

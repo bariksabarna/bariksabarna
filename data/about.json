@@ -1,0 +1,11 @@
+{
+  "heading": "About",
+  "intro": "I'm Sabarna Barik — some people call me Rico.",
+  "body": [
+    "I'm a Computer Science student who learns best by building things end to end. Rather than collecting concepts in isolation, I turn each one into something working — a script, an API, a small system — and keep the ones that hold up under real use.",
+    "So far that journey has taken me through web development with Python and Flask, relational databases, and the fundamentals that hold it all together: data structures, algorithms, and clean engineering discipline. Every project here is a checkpoint of what I understood at that moment.",
+    "I believe learning is compounding: learn the fundamentals, build something real, ship it, document it, and let the next project be better than the last. This site is exactly that loop — the documented output of my own process."
+  ],
+  "philosophy": "Building real things to learn, and learning to build better.",
+  "interests": ["Systems that scale", "Clean UI", "Open source", "Automation"]
+}
